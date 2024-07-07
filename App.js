@@ -74,6 +74,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 5,
   },
+
+  // Define the styles for the text text.
   text: {
     color: '#fff',
     textAlign: 'center',
