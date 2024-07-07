@@ -46,6 +46,8 @@ const styles = StyleSheet.create({
     width: SQUARE_SIZE,
     height: SQUARE_SIZE,
   },
+
+  // Define the styles for the squareText text.
   squareText: {
     color: '#fff',
     fontSize: 40,
