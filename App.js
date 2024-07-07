@@ -143,6 +143,7 @@ const Board = ({onSquarePress, squares}) => {
 
 // Create an App component that uses the useState hook to manage the state of the game.
 const App = () => {
+  // Define the state variables xIsNext and squares using the useState hook.
   const [xIsNext, setXIsNext] = useState(false);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
