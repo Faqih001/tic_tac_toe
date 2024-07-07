@@ -167,6 +167,8 @@ const App = () => {
 
     // Update the xIsNext state variable to toggle between X and O.
     setXIsNext(!xIsNext);
+
+    // Update the squares state variable with the newSquares array.
     setSquares(newSquares);
   };
 
