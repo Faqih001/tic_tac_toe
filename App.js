@@ -17,6 +17,8 @@ const SQUARE_SIZE = Math.floor(screen.width * 0.3);
 
 // Create a StyleSheet object with the styles for the components in the app.
 const styles = StyleSheet.create({
+
+  // Define the styles for the container view.
   container: {
     flex: 1,
     backgroundColor: '#3ba2bf',
