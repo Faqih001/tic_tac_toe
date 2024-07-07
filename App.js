@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  // Define the styles for the board view.
   board: {
     borderWidth: 1,
     borderColor: '#fff',
