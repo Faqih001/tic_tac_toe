@@ -170,6 +170,7 @@ const App = () => {
     setSquares(newSquares);
   };
 
+  // Calculate the winner based on the squares array.
   const winner = calculateWinner(squares);
 
   return (
