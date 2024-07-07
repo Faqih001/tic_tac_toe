@@ -5,6 +5,7 @@
  * @format
  */
 
+// transformer is used to configure the way Metro transforms the source code of your app.
 module.exports = {
   transformer: {
     getTransformOptions: async () => ({
