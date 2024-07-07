@@ -15,6 +15,7 @@ const screen = Dimensions.get('window');
 // Define the size of the square using the screen width and multiply it by 0.3.
 const SQUARE_SIZE = Math.floor(screen.width * 0.3);
 
+// Create a StyleSheet object with the styles for the components in the app.
 const styles = StyleSheet.create({
   container: {
     flex: 1,
