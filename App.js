@@ -162,6 +162,7 @@ const App = () => {
       return;
     }
 
+    // Update the square at index i with the value.
     newSquares[i] = value;
 
     setXIsNext(!xIsNext);
