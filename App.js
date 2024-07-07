@@ -36,6 +36,8 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
   },
+
+  // Define the styles for the square view.
   square: {
     borderWidth: 1,
     borderColor: '#fff',
