@@ -115,6 +115,7 @@ const Square = ({onPress, value}) => (
 
 // Create a Board component that takes onSquarePress and squares as props.
 const Board = ({onSquarePress, squares}) => {
+  // Create a renderSquare function that takes i as an argument and returns a Square component with the value of the squares array at index i and an onPress function that calls the onSquarePress function with the index i.
   const renderSquare = i => {
     return <Square value={squares[i]} onPress={() => onSquarePress(i)} />;
   };
