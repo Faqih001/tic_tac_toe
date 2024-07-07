@@ -113,6 +113,7 @@ const Square = ({onPress, value}) => (
   </TouchableOpacity>
 );
 
+// Create a Board component that takes onSquarePress and squares as props.
 const Board = ({onSquarePress, squares}) => {
   const renderSquare = i => {
     return <Square value={squares[i]} onPress={() => onSquarePress(i)} />;
