@@ -151,7 +151,10 @@ const App = () => {
 
   // Create an onSquarePress function that takes i as an argument and updates the squares array with the value of X or O based on the xIsNext state variable.
   const onSquarePress = i => {
+    // Define the value variable based on the xIsNext state variable.
     const value = xIsNext ? 'X' : 'O';
+
+    // Create a newSquares array by copying the squares array using the spread operator.
     const newSquares = [...squares];
 
     if (newSquares[i] || calculateWinner(squares)) {
