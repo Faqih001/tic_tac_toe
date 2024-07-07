@@ -157,6 +157,7 @@ const App = () => {
     // Create a newSquares array by copying the squares array using the spread operator.
     const newSquares = [...squares];
 
+    // If the square at index i is already filled or there is a winner, return.
     if (newSquares[i] || calculateWinner(squares)) {
       return;
     }
