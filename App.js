@@ -58,6 +58,8 @@ const styles = StyleSheet.create({
   winnerBlock: {
     marginTop: 50,
   },
+
+  // Define the styles for the button view.
   button: {
     borderRadius: 5,
     borderColor: '#fff',
