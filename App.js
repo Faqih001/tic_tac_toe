@@ -66,6 +66,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     marginTop: 10,
   },
+
+  // Define the styles for the buttonText text.
   buttonText: {
     color: '#fff',
     fontSize: 14,
