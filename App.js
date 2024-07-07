@@ -9,6 +9,7 @@ import {
   SafeAreaView,
 } from 'react-native';
 
+// Get the screen dimensions using the Dimensions API from react-native package and store it in the screen constant. 
 const screen = Dimensions.get('window');
 
 const SQUARE_SIZE = Math.floor(screen.width * 0.3);
