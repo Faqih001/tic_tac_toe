@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#fff',
   },
+
+  // Define the styles for the row view.
   row: {
     flexDirection: 'row',
   },
