@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
 });
 
 function calculateWinner(squares) {
+  // Define the winning lines.
   const lines = [
     [0, 1, 2],
     [3, 4, 5],
