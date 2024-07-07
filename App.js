@@ -149,6 +149,7 @@ const App = () => {
   // Define the state variable squares using the useState hook and initialize it with an array of 9 null values.
   const [squares, setSquares] = useState(Array(9).fill(null));
 
+  // Create an onSquarePress function that takes i as an argument and updates the squares array with the value of X or O based on the xIsNext state variable.
   const onSquarePress = i => {
     const value = xIsNext ? 'X' : 'O';
     const newSquares = [...squares];
