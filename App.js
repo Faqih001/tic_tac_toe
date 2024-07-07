@@ -106,6 +106,7 @@ function calculateWinner(squares) {
   return null;
 }
 
+// Create a Square component that takes onPress and value as props.
 const Square = ({onPress, value}) => (
   <TouchableOpacity style={styles.square} onPress={onPress}>
     <Text style={styles.squareText}>{value}</Text>
