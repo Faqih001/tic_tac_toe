@@ -165,6 +165,7 @@ const App = () => {
     // Update the square at index i with the value.
     newSquares[i] = value;
 
+    // Update the xIsNext state variable to toggle between X and O.
     setXIsNext(!xIsNext);
     setSquares(newSquares);
   };
