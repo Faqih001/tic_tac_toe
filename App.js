@@ -51,6 +51,8 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: 'bold',
   },
+
+  // Define the styles for the winnerBlock view.
   winnerBlock: {
     marginTop: 50,
   },
