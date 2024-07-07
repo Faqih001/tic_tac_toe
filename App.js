@@ -145,6 +145,8 @@ const Board = ({onSquarePress, squares}) => {
 const App = () => {
   // Define the state variables xIsNext and squares using the useState hook.
   const [xIsNext, setXIsNext] = useState(false);
+
+  // Define the state variable squares using the useState hook and initialize it with an array of 9 null values.
   const [squares, setSquares] = useState(Array(9).fill(null));
 
   const onSquarePress = i => {
