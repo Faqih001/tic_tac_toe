@@ -12,6 +12,7 @@ import {
 // Get the screen dimensions using the Dimensions API from react-native package and store it in the screen constant. 
 const screen = Dimensions.get('window');
 
+// Define the size of the square using the screen width and multiply it by 0.3.
 const SQUARE_SIZE = Math.floor(screen.width * 0.3);
 
 const styles = StyleSheet.create({
