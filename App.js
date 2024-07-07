@@ -98,6 +98,7 @@ function calculateWinner(squares) {
   // Check if any of the winning lines have the same value in all three squares.
   for (let i = 0; i < lines.length; i += 1) {
     const [a, b, c] = lines[i];
+    // If the squares have the same value, return the value.
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       return squares[a];
     }
